@@ -1,0 +1,22 @@
+
+.clock{
+    width: 500px;
+    height: 300px;
+    max-width: 400px;
+    background-color: rgb(176, 176, 238);
+    border-radius: 20px;
+    position: absolute;
+    top: 20px;
+    left: 300px;
+}
+.hour,.min,.sec,.ampm{
+    display: inline;
+    padding: 30px;
+    background-color: rgb(102, 136, 134);
+    color: #eee;
+    position: relative;
+    top: 130px;
+    left: 20px;
+    border-radius: 10px;
+    box-shadow: 1em 1em 1em 1em rgb(170, 69, 145) inset;
+}
